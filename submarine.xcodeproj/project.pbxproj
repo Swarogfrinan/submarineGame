@@ -13,6 +13,7 @@
 		4343C62527BAD55F00BD3D5D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4343C62427BAD55F00BD3D5D /* ResultViewController.swift */; };
 		434FF49627A15E5B007E8F95 /* submarineOst.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434FF49527A15E5B007E8F95 /* submarineOst.mp3 */; };
 		434FF49A27A17F6A007E8F95 /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FF49927A17F6A007E8F95 /* launchViewController.swift */; };
+		436C055327F492990061963F /* resultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436C055227F492990061963F /* resultTableViewCell.swift */; };
 		43700AB427AAD8A7008CEF3D /* constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43700AB327AAD8A7008CEF3D /* constans.swift */; };
 		43700AB627AAD8E4008CEF3D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43700AB527AAD8E4008CEF3D /* Settings.swift */; };
 		43700AB827AAD979008CEF3D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43700AB727AAD979008CEF3D /* SettingsViewController.swift */; };
@@ -34,6 +35,7 @@
 		4343C62427BAD55F00BD3D5D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		434FF49527A15E5B007E8F95 /* submarineOst.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = submarineOst.mp3; sourceTree = "<group>"; };
 		434FF49927A17F6A007E8F95 /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
+		436C055227F492990061963F /* resultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultTableViewCell.swift; sourceTree = "<group>"; };
 		43700AB327AAD8A7008CEF3D /* constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constans.swift; sourceTree = "<group>"; };
 		43700AB527AAD8E4008CEF3D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		43700AB727AAD979008CEF3D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +64,6 @@
 		434208FD27A9722800C092B7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				43700AB327AAD8A7008CEF3D /* constans.swift */,
 				43752C4427A029DF00B0639E /* Assets.xcassets */,
 				434FF49527A15E5B007E8F95 /* submarineOst.mp3 */,
 				434208F927A9504900C092B7 /* extension + codable.swift */,
@@ -71,13 +72,33 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		4342090427A97E0500C092B7 /* delegat */ = {
+		4342090427A97E0500C092B7 /* delegate */ = {
 			isa = PBXGroup;
 			children = (
 				43752C3B27A029DD00B0639E /* AppDelegate.swift */,
 				43752C3D27A029DD00B0639E /* SceneDelegate.swift */,
 			);
-			path = delegat;
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		436C055027F490690061963F /* resultView */ = {
+			isa = PBXGroup;
+			children = (
+				4342090E27A9965C00C092B7 /* results.swift */,
+				4343C62427BAD55F00BD3D5D /* ResultViewController.swift */,
+				43700AB327AAD8A7008CEF3D /* constans.swift */,
+				436C055227F492990061963F /* resultTableViewCell.swift */,
+			);
+			path = resultView;
+			sourceTree = "<group>";
+		};
+		436C055127F490860061963F /* settingsView */ = {
+			isa = PBXGroup;
+			children = (
+				43700AB527AAD8E4008CEF3D /* Settings.swift */,
+				43700AB727AAD979008CEF3D /* SettingsViewController.swift */,
+			);
+			path = settingsView;
 			sourceTree = "<group>";
 		};
 		43752C2F27A029DD00B0639E = {
@@ -99,18 +120,16 @@
 		43752C3A27A029DD00B0639E /* submarine */ = {
 			isa = PBXGroup;
 			children = (
-				43700AB727AAD979008CEF3D /* SettingsViewController.swift */,
 				43752C3F27A029DD00B0639E /* MainViewController.swift */,
-				4342090E27A9965C00C092B7 /* results.swift */,
 				434FF49927A17F6A007E8F95 /* launchViewController.swift */,
 				4342091027A9AD0500C092B7 /* FuncUpaandDown.swift */,
 				43752C4127A029DD00B0639E /* Main.storyboard */,
 				43752C4627A029DF00B0639E /* LaunchScreen.storyboard */,
 				43CD015B27A2BC3A002E8E81 /* tap.swift */,
 				4342090C27A98E3D00C092B7 /* Info.plist */,
-				4343C62427BAD55F00BD3D5D /* ResultViewController.swift */,
-				43700AB527AAD8E4008CEF3D /* Settings.swift */,
-				4342090427A97E0500C092B7 /* delegat */,
+				436C055127F490860061963F /* settingsView */,
+				436C055027F490690061963F /* resultView */,
+				4342090427A97E0500C092B7 /* delegate */,
 				434208FD27A9722800C092B7 /* Extension */,
 			);
 			path = submarine;
@@ -190,6 +209,7 @@
 			files = (
 				4343C62527BAD55F00BD3D5D /* ResultViewController.swift in Sources */,
 				43A1EB6427A3FDF200B7E947 /* extensionView.swift in Sources */,
+				436C055327F492990061963F /* resultTableViewCell.swift in Sources */,
 				4342090F27A9965C00C092B7 /* results.swift in Sources */,
 				43CD015C27A2BC3A002E8E81 /* tap.swift in Sources */,
 				43752C4027A029DD00B0639E /* MainViewController.swift in Sources */,
