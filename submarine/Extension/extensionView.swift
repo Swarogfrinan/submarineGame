@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+//extension теней
 extension UIView {
 //func rounded(radius: CGFloat = 10) {
 // self.layer.cornerRadius = radius

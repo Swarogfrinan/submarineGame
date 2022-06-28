@@ -93,17 +93,28 @@ class SettingsViewController: UIViewController {
     }
         }
     }
+    //MARK: Navigation
+    @IBAction func resultButtonPressed(_ sender: UIButton) {
+        guard let controler = self.storyboard?.instantiateViewController(withIdentifier: "TableResultVc") as? TableResultVc else {
+            return
+    }
+        //Screen rotate
+        controler.modalTransitionStyle = .crossDissolve
+                controler.modalPresentationStyle = .fullScreen
+                self.present (controler, animated: true, completion: nil)
+    }
+    
+
     @IBAction func backButtonPressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
         guard let imageSubmarine = UserDefaults.standard.value(forKey: "image") as? String else  {return}
         if let image = SettingsViewController.loadImage(fileName: imageSubmarine) {
-//            launchViewController.imageSubmarineView.image = image?
         
         
         }
 }
 
-
+        // Задаём скин-игрока в настройках, сохраняем его.
        static func saveImage (image: UIImage) -> String? {
                 guard let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return nil}
          //путь к папке приложения где оно сохраняет файлы
@@ -134,7 +145,7 @@ class SettingsViewController: UIViewController {
     
     
     
-    
+    //Установка скина-игрока  SettingsVC
     
                 // задаём имя файла, пытаемся вернуть картинку.
           static  func loadImage(fileName: String) -> UIImage? {
@@ -153,18 +164,7 @@ class SettingsViewController: UIViewController {
                 
             }
     
-    //кнопка результатов
-    @IBAction func resultButtonPressed(_ sender: UIButton) {
-        
-        guard let controler = self.storyboard?.instantiateViewController(withIdentifier: "ResultViewController") as? ResultViewController else {
-            return
-    }
-        controler.modalTransitionStyle = .crossDissolve
-                controler.modalPresentationStyle = .fullScreen
-           
-                self.present (controler, animated: true, completion: nil)
-    }
-    }
+}
     
     
     

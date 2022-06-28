@@ -8,12 +8,8 @@
 import UIKit
 import AVFoundation
 import SpriteKit
-//MARK: Enums
-enum Player {
-case stop
-case play
-}
 
+var player = SKSpriteNode()
 
 enum lifeOrDead {
     case lifeOn
@@ -21,16 +17,7 @@ enum lifeOrDead {
 }
 
 class MainViewController: UIViewController{
-//             
-//             let obstaclesArray = [UIImageView] = [
-//                          UIImageView(named: "shipBoat"),
-//                          UIImageView(named: "fishOne"),
-//                          UIImageView(named: "FishTwo"),
-//                          UIImageView(named: "Shark"),
-//                          UIImageView(named: "meduza")
-//             ]
-//             
-//    let obstacle: Set<UIImageView> = Set(obstaclesArray)
+
              let fishArray = ["fishOne", "fishSecond"]
 //MARK: Rotate Interface
              override var shouldAutorotate: Bool {
@@ -43,14 +30,44 @@ return .landscape
 return .all
 }
 }
-
-            
+//             //movement with touch
+//             override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+//
+//                 let touch = touches.first! as UITouch
+//
+//                 let pointOfTouch = touch.location(in: self)
+//                 let previousPointOfTouch = touch.previousLocation(in: self)
+//
+//                 let offsetX = pointOfTouch.x - previousPointOfTouch.x
+//             }
+//
+//             func playerSetUp() {
+//
+//                     player = SKSpriteNode(imageNamed: "submarineTwo")
+//                 player.position.x = frame.midX
+//                 player.position.y = frame.minY + player.size.height * 2
+//                 player.zPosition = 1
+//                 player.physicsBody = SKPhysicsBody(rectangleOf: player.size)
+//                 player.physicsBody?.affectedByGravity = false
+//                 player.physicsBody?.allowsRotation = false
+//                 player.physicsBody?.categoryBitMask = PhysicsCategory.Player
+//                 player.physicsBody?.collisionBitMask = PhysicsCategory.None
+//                 player.physicsBody?.collisionBitMask = PhysicsCategory.EdgeBody
+//
+//                 //HERE!!!!!!!!!!!!!!!
+//                 player.physicsBody?.contactTestBitMask = PhysicsCategory.Enemy | PhysicsCategory.NewLife
+//
+//                 player.size.width = playerSize.width
+//                 player.size.height = playerSize.height
+//                 addChild(player)
+//             }
              
 //MARK: IBOutlet
+             //setup View
     @IBOutlet var mainView: UIView!
     @IBOutlet weak var centralPlayView: UIView!
     @IBOutlet weak var buttonsBorderView: UIView!
-    @IBOutlet weak var downButton: UIButton!
+    
     @IBOutlet weak var groundView: UIView!
     @IBOutlet weak var oceanView: UIView!
              @IBOutlet weak var boatView: UIView!
@@ -79,6 +96,7 @@ return .all
     @IBOutlet weak var oxygenProgressView: UIProgressView!
     @IBOutlet var UILongPressGestureOutlet: UILongPressGestureRecognizer!
     //29.01 resume button
+             @IBOutlet weak var downButton: UIButton!
     @IBOutlet weak var buttonResume: UIView!
     @IBOutlet weak var buttonResumeDopVIew: UIView!
              @IBOutlet weak var krakenImage: UIImageView!
@@ -428,11 +446,27 @@ loseGame(lifeorDead: .deadOff)
                                        loseGame(lifeorDead: .deadOff)
                           }
              }
+             func saveGameResults() {
+                 
+                 let date = Date()
+                 let formatter = DateFormatter()
+         //        formatter.dateFormat = "MM dd, h:mm"
+                 formatter.dateFormat = "dd/MM, h:mm a"
+                 formatter.amSymbol = "AM"
+                 formatter.pmSymbol = "PM"
+                 formatter.timeZone = .current
+                 let dateString = formatter.string(from: date)
+                print(dateString)
+                 let newRecord = Record(score: countFish, date: dateString)
+                 RecordsManager.shared.saveRecords(newRecord)
+                          
+                 print("\(countFish) was saved to UD")
+   
+             }
 
-
-
+             var records = [Record]()
              @IBAction func resumeButtomPressed(_ sender: UIButton) {
-                          Results.CodingKeys.score 
+                         saveGameResults()
              self.dismiss(animated: true, completion: nil) 
         audioPlayer.stop()
  }
