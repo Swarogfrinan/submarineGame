@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "57B5CF8D-B764-4765-BB35-288C4551A5A4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A67A1D16-921D-4B3A-888D-EFA370A65CE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "submarine/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AAA1370-1F68-4021-96E7-8A4E19291476"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "submarine/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBCB28FC-9265-4790-87E5-D1E38138D325"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "submarine/ResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B355F3A8-7559-404E-A1C0-506B6D33FF97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "submarine/resultView/RecordTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "RecordTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B355F3A8-7559-404E-A1C0-506B6D33FF97 - 76a4a230ad792c79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; submarine.RecordTableViewCell"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "B355F3A8-7559-404E-A1C0-506B6D33FF97 - 8b3b6db25ef1cd55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; submarine.RecordTableViewCell"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "141">
+               </Location>
+               <Location
+                  uuid = "B355F3A8-7559-404E-A1C0-506B6D33FF97 - 7d98a62d2e499747"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;submarine.RecordTableViewCell&gt;"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "B355F3A8-7559-404E-A1C0-506B6D33FF97 - 3b1efe7b571360f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;submarine.RecordTableViewCell&gt;"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  uuid = "B355F3A8-7559-404E-A1C0-506B6D33FF97 - 989c2b431348de27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.__deallocating_deinit"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04A8E5B5-2C38-4D15-949D-A6C31C7EBB8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "submarine/resultView/RecordTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "RecordTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "04A8E5B5-2C38-4D15-949D-A6C31C7EBB8B - 9a4a6f30dbab5bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.nameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "04A8E5B5-2C38-4D15-949D-A6C31C7EBB8B - 758a5b02c39011ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.nameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "04A8E5B5-2C38-4D15-949D-A6C31C7EBB8B - 39a0e1157e0b3236"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "04A8E5B5-2C38-4D15-949D-A6C31C7EBB8B - 8356d5da8af8908e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "04A8E5B5-2C38-4D15-949D-A6C31C7EBB8B - 8b3b6db25ef1cd55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; submarine.RecordTableViewCell"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "141">
+               </Location>
+               <Location
+                  uuid = "04A8E5B5-2C38-4D15-949D-A6C31C7EBB8B - 3b1efe7b571360f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "submarine.RecordTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;submarine.RecordTableViewCell&gt;"
+                  moduleName = "submarine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ilyavasilev/Desktop/MyLibrary/Sources/MyLibrary/lesson1/lesson1/submarine/submarine/resultView/RecordTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E68758A6-0F69-4483-8398-085EDDC01003"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "submarine/View/SettingsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "saveImage(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA8260B1-11E2-46CC-9812-A2B3B30CFD03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "submarine/View/LauchVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "launchViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

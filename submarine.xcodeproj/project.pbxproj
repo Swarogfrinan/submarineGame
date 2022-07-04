@@ -25,6 +25,7 @@
 		439A2933281D3B1B00561BFA /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A2932281D3B1B00561BFA /* UserDefaults+Extension.swift */; };
 		439A293F281DCC7900561BFA /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A293E281DCC7900561BFA /* Timer.swift */; };
 		43A1EB6427A3FDF200B7E947 /* extensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A1EB6327A3FDF200B7E947 /* extensionView.swift */; };
+		43A4C7EF28739B8E00611A69 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43A4C7EE28739B8E00611A69 /* Info.plist */; };
 		43B71A26281C36E30048B929 /* RecordsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B71A25281C36E30048B929 /* RecordsManager.swift */; };
 		43CD015C27A2BC3A002E8E81 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CD015B27A2BC3A002E8E81 /* Manager.swift */; };
 		43F927A228199DC800649FEE /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F927A128199DC800649FEE /* Record.swift */; };
@@ -32,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		434208F927A9504900C092B7 /* extension + codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + codable.swift"; sourceTree = "<group>"; };
-		4342090C27A98E3D00C092B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4342091027A9AD0500C092B7 /* MoveSingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveSingleTon.swift; sourceTree = "<group>"; };
 		4343C62427BAD55F00BD3D5D /* TableResultVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableResultVc.swift; sourceTree = "<group>"; };
 		434FF49527A15E5B007E8F95 /* submarineOst.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = submarineOst.mp3; sourceTree = "<group>"; };
@@ -51,6 +51,7 @@
 		439A2932281D3B1B00561BFA /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		439A293E281DCC7900561BFA /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		43A1EB6327A3FDF200B7E947 /* extensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionView.swift; sourceTree = "<group>"; };
+		43A4C7EE28739B8E00611A69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../../../../../../Documents/xcode Work/Observer_Nelogogy_pattern_part_2/Observer_Nelogogy_pattern_part_2/Info.plist"; sourceTree = "<group>"; };
 		43B71A25281C36E30048B929 /* RecordsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsManager.swift; sourceTree = "<group>"; };
 		43CD015B27A2BC3A002E8E81 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		43F927A128199DC800649FEE /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
@@ -151,7 +152,7 @@
 		43F9279D2819982900649FEE /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				4342090C27A98E3D00C092B7 /* Info.plist */,
+				43A4C7EE28739B8E00611A69 /* Info.plist */,
 				43752C4427A029DF00B0639E /* Assets.xcassets */,
 				434FF49527A15E5B007E8F95 /* submarineOst.mp3 */,
 				43752C3B27A029DD00B0639E /* AppDelegate.swift */,
@@ -221,6 +222,7 @@
 				43752C4827A029DF00B0639E /* LaunchScreen.storyboard in Resources */,
 				43752C4527A029DF00B0639E /* Assets.xcassets in Resources */,
 				434FF49627A15E5B007E8F95 /* submarineOst.mp3 in Resources */,
+				43A4C7EF28739B8E00611A69 /* Info.plist in Resources */,
 				43752C4327A029DD00B0639E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,7 +405,7 @@
 				DEVELOPMENT_TEAM = 5K6Q3VCR94;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = submarine/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Submarine Game";
+				INFOPLIST_KEY_CFBundleDisplayName = submarine;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -434,7 +436,7 @@
 				DEVELOPMENT_TEAM = 5K6Q3VCR94;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = submarine/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Submarine Game";
+				INFOPLIST_KEY_CFBundleDisplayName = submarine;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
